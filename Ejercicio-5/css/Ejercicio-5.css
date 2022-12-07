@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contGaleria{
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    overflow: auto;
+
+}
+.img{
+    width: 300px;
+    padding:12px 12px;
+    opacity: .3;
+}
+
+.img:hover{
+    opacity: 1;
+}
