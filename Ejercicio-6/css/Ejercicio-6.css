@@ -1,0 +1,19 @@
+button{
+    height: 50px;
+    width: 120px;
+}
+
+
+.btn-6::before{
+    content: "Pasa por encima";
+}
+
+.btn-6:hover{
+    color: white;
+    background-color: green;
+}
+
+.btn-6:hover:after{
+    content: "¡Hecho!";
+}
+
