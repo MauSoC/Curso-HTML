@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container{
+    padding-top: 15vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.acceder-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.google-btn{
+    height: 100%;
+}
+.google-btn picture{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
